@@ -3,3 +3,50 @@
   margin: 0;
 }
 
+header {
+  display: flex;
+  background-color: rgb(172, 172, 172);
+  width: 100%;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.logo {
+  width: 19em;
+  height: 5em;
+  margin: 3px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+.menu-list {
+  color: white;
+  display: inline-flex;
+  list-style: none;
+
+}
+.menu-list li {
+  list-style: none;
+  display: inline-flex;
+  margin-right: 100px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 100;
+}
+
+.menu-list li a:hover {
+  color: darkcyan;
+  scale: 1.1;
+}
+
+
+main img {
+  width: 100%;
+}
